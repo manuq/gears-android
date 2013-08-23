@@ -28,9 +28,9 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         // This setting defaults to false since API level 16
-        if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {
-            webSettings.setAllowFileAccessFromFileURLs(true);
-        }
+//        if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {
+//            webSettings.setAllowFileAccessFromFileURLs(true);
+//        }
 
         // Make sure links in the webview is handled by the webview
         // and not sent to a full browser
